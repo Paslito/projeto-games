@@ -62,6 +62,7 @@ main .jogo .imagem {
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
     top: 0;
+    right: 0;
     width: 180px;
 
     display: flex;

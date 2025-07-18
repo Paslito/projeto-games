@@ -1,0 +1,97 @@
+@media (max-width: 769px){
+
+    main::after{
+        background: linear-gradient(0deg, black 15%, rgba(0, 0, 0, 0) 70%) no-repeat;
+        width: 100vw;
+    }
+
+    main .jogos .imagem{
+        height: 85px;
+        object-position: center;
+    }
+
+    .conteudo{
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        max-width: 100vw;
+        padding: 30px;
+    }
+
+    .conteudo .nome-jogo{
+        font-size: 30px;
+    }
+
+    .conteudo .descricao{
+        max-width: 500px;
+    }
+
+    .botoes{
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 50px;
+    }
+
+    .botoes .botao{
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .botoes .botao img{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+@media (max-width: 425px){
+    main .jogos .imagem{
+        height: auto;
+    }
+
+    .conteudo{
+        top: -20%;
+    }
+
+    .botoes{
+        width: 100%;
+        padding: 20px;
+        top: -5%;
+    }
+
+    .botoes .botao{
+        width: 50px;
+        height: 50px;
+    }
+    .botoes .botao img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 390px){
+
+    main .jogos .imagem{
+        height: auto;
+    }
+
+    .conteudo{
+        top: -20%;
+    }
+
+    .botoes{
+        padding: 10px;
+        top: -10%;
+    }
+
+    .botoes .botao{
+        width: 50px;
+        height: 50px;
+    }
+    .botoes .botao img{
+        width: 50px;
+        height: 50px;
+    }
+}

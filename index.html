@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/reset.css"> 
+    <link rel="stylesheet" href="src/css/estilos.css"> 
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="shortcut icon" href="src/imagens/controller50-50.ico" type="image/x-icon">
+
+    <!-- FONTS -->
+    <!-- SECULAR ONE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    
+    <!-- RUBIK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap" rel="stylesheet"> 
+
+    <title>Jogos</title>
+</head>
+
+<body>
+    <main class="jogos">
+        <!-- Dark Souls 3-->
+        <div class="jogo selecionado">
+            <picture>
+                <source srcset="./src/imagens/bg-darksouls3-1920x1080px.jpg" media="(min-width: 768px)">
+                <img class="imagem" src="src/imagens/bg-darksouls3-mobile-375x812px.jpg" alt="Dark Souls 3">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-jogo">Dark Souls III</h2>
+                <p class="descricao">DARK SOULS™ continua a ultrapassar seus próprios limites em um ambicioso novo capítulo da série que definiu um gênero e que é aclamada pela crítica. Prepare-se para abraçar a escuridão!
+                </p>
+            </div>
+        </div>
+
+        <!-- Celeste -->
+        <div class="jogo">
+            <picture>
+                <source srcset="./src/imagens/bg-celeste-1920x1080px.jpg" media="(min-width: 768px)">
+                <img class="imagem" src="src/imagens/bg-celeste-mobile-375x812px.jpg" alt="celeste">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-jogo">Celeste</h2>
+                <p class="descricao">Ajude Madeline a enfrentar seus demônios internos em sua jornada até o topo da Montanha Celeste, nesse jogo de plataforma super afiado dos criadores de TowerFall. Desbrave centenas de desafios meticulosos, descubra segredos complicados e desvende o mistério da montanha.
+                </p>
+            </div>
+        </div>
+
+        <!-- Wutherring Waves -->
+        <div class="jogo">
+            <picture>
+                <source srcset="./src/imagens/bg-wutherringwaves-1920x1080px.jpg" media="(min-width: 768px)">
+                <img class="imagem" src="src/imagens/bg-wutherringwaves-mobile-375x812px.jpg" alt="Wutherring Waves">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-jogo">Wutherring Waves</h2>
+                <p class="descricao">Wuthering Waves é um RPG de ação em mundo aberto, rico em história e com grande liberdade. Você desperta de seu sono como Rover, acompanhado por um elenco vibrante de Resonators em uma jornada para recuperar suas memórias perdidas e mudar o mundo.
+                </p>
+            </div>
+        </div>
+
+        <!-- Shadow of the colossus -->
+        <div class="jogo">
+            <picture>
+                <source srcset="./src/imagens/bg-shadowofthecolossus-1920x1080px.jpg" media="(min-width: 768px)">
+                <img class="imagem" src="src/imagens/bg-shadowofthecolossus-mobile-375x812px.jpg"
+                    alt="Shadow of the colossus">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-jogo">Shadow Of The Colossus</h2>
+                <p class="descricao">SHADOW OF THE COLOSSUS é uma jornada espetacular por terras antigas em busca de feras gigantes. Armado com uma espada e um arco, explore os vastos terrenos e revele cada Colossus, cada um com um desafio único para testar sua inteligência, determinação e habilidade.
+                </p>
+            </div>
+        </div>
+
+        <!-- Trove -->
+        <div class="jogo">
+            <picture>
+                <source srcset="./src/imagens/bg-trove-1920x1080px.jpg" media="(min-width: 768px)">
+                <img class="imagem" src="src/imagens/bg-trove-mobile-375x812px.jpg" alt="Trove">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-jogo">Trove</h2>
+                <p class="descricao">Chame seus amigos, afie suas armas e embarque nas aventuras de Trove, o melhor MMO de ação de todos os tempos!
+                </p>
+            </div>
+        </div>
+
+        
+    </main>
+    <ul class="botoes">
+        <!-- Botão Dark Souls 3 -->
+        <li>
+            <button class="botao dark selecionado">
+                <img src="src/imagens/icone-darksouls3-175px.png" alt="Icone Dark Souls 3" height="92" width="92">
+            </button>
+        </li>
+
+        <!-- Botão Celeste -->
+        <li>
+            <button class="botao celeste">
+                <img src="src/imagens/icone-celeste-175px.png" alt="Icone Celeste" height="92" width="92"> 
+            </button>
+        </li>
+
+        <!-- Botão Wutherring Waves -->
+        <li>
+            <button class="botao wutherring">
+                <img src="src/imagens/icone-wutherringwaves-175px.png" alt="Icone Wutherring Waves" height="92" width="92">
+            </button>
+        </li>
+
+        <!-- Botão Shasow Of The Colossus -->
+        <li>
+            <button class="botao shadow">
+                <img src="src/imagens/icone-shadowofthecolossus-175px.png" alt="Icone Shadow Of The Colossus" height="92" width="92"> 
+            </button>
+        </li>
+
+        <!-- Botão Trove -->
+        <li>
+            <button class="botao trove">
+                <img src="src/imagens/icone-trove-175x.png" alt="Icone Trove" height="92" width="92"> 
+            </button>
+        </li>
+    </ul>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
